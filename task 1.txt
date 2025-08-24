@@ -1,0 +1,19 @@
+const akshat = {
+  id: "0187EC241001",
+  name: "Akshat Sharma",
+  age: 19,
+  course: "Electronics & Communication",
+  grade: "A"
+};
+
+console.log(ID: ${akshat.id}, Name: ${akshat.name}, Age: ${akshat.age}, Course: ${akshat.course}, Grade: ${akshat.grade});
+
+const neeraj = {
+  id: "0187EC241017",
+  name: "Neeraj Verma",
+  age: 18,
+  course: "Electronics & Communication",
+  grade: "A"
+};
+
+console.log(ID: ${neeraj.id}, Name: ${neeraj.name}, Age: ${neeraj.age}, Course: ${neeraj.course}, Grade: ${neeraj.grade});
