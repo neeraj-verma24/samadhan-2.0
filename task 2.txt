@@ -1,0 +1,17 @@
+function findHighest(marks) {
+  let highest = marks[0]
+
+  marks.forEach(mark => {
+    if (mark > highest) {
+      highest = mark
+    }
+  })
+
+  return highest
+}
+
+let marks = [45, 78, 89, 99, 99, 67]
+
+let highestMarks = findHighest(marks)
+
+console.log("Neeraj your highest score is " + highestMarks)
