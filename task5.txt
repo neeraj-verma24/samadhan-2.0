@@ -1,0 +1,16 @@
+const express = require('express');
+const app = express();
+const port = 3000;
+
+const students = [
+  'Neeraj Verma',
+  'Akshat Sharma'
+];
+
+app.get('/students', (req, res) => {
+  res.json(students);
+});
+
+app.listen(port, () => {
+  console.log(Student API listening at http://localhost:${port});
+});
